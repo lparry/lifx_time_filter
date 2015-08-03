@@ -29,7 +29,7 @@ other formats that `ActiveSupport::TimeZone` can parse. But you'll probably just
 break it if you try and do anything too complicated.
 
 
-[lifx]: (http://www.lifx.com)
-[ifttt]: (http://ifttt.com)
-[lifx-tokens]: (https://cloud.lifx.com/settings)
+[lifx]: http://www.lifx.com
+[ifttt]: http://ifttt.com
+[lifx-tokens]: https://cloud.lifx.com/settings
 
