@@ -19,7 +19,18 @@ Usage
 * Dump this on heroku. use `heroku config-set` to set `HTTP_AUTH_USER`,
 `HTTP_AUTH_PASSWORD` and `LIFX_TOKEN`.
 * Configure IFTTT to trigger based on location, and send a
-`PUT` request via the maker API plugin to your app like `https://user:password@magic-unicorn-69.herokuapp.com/turn_on_lights_if_after/5PM`.
+`PUT` request via the maker API plugin to your app like `https://user:password@magic-unicorn-69.herokuapp.com/turn/on/lights_if_after/5PM`.
+
+API
+---
+
+Requests are pretty self explanatory from their urls
+
+* `/turn/:state/lights_if_after/:time`.
+* `/turn/:state/lights_if_before/:time`.
+* `/turn/:state/lights_if_between/:time/and/:time`.
+
+Valid states are `on` and `off`.
 
 Time format
 -----------
