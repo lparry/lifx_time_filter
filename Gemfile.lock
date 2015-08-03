@@ -18,11 +18,14 @@ GEM
     minitest (5.7.0)
     multi_xml (0.5.5)
     rack (1.6.4)
-    sinatra (1.1.0)
-      rack (~> 1.1)
-      tilt (~> 1.1)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
     thread_safe (0.3.5)
-    tilt (1.4.1)
+    tilt (2.0.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
 
@@ -32,7 +35,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   lifx_toys
-  sinatra (= 1.1.0)
+  sinatra
 
 BUNDLED WITH
    1.10.6
